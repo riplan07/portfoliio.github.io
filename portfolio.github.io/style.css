@@ -1,0 +1,417 @@
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+ol,ul li,ul li a
+{
+    text-decoration: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ....................resetcss............... */
+
+/* .......................header.................. */
+.homepage
+{
+    background:#007cec;
+}  
+.portfolio
+{
+    background:#ffffff;
+    /* border-radius:10%; */  
+}
+.container
+{
+    padding: 0 5%;
+}
+.navigation
+{
+    margin-top:35px;
+}
+.header-content
+{
+    display:flex;
+    justify-content:space-between;
+}
+.header-content span
+{
+    padding:0 5px;
+}
+.header-content h2
+{
+    font-size:25px;
+}
+.logo-adn
+{
+    color:#007cec;
+    font-size:45px;
+}
+.nav-bar ul
+{
+   
+}
+.nav-bar ul li
+{
+    display:inline-block;
+    margin-right:28px;    
+}
+.nav-clr
+{
+    color:#dadada;
+}
+.nav-active-clr
+{
+    color:#6a6a6a;
+}
+/* ..........................banner section................. */
+.banner-container
+{
+    display:flex;
+    justify-content:center;
+    padding: 5% 14%;
+}
+.banner-img
+{
+    border-radius:50%;
+}
+.banner-content
+{
+   margin-left:40px;
+}
+.banner-content p
+{
+    padding-top:25px;
+    color:#b6b6b6;
+}
+.banner-content h1
+{
+    padding-top:20px;
+    font-size:63px;
+    color:#333333;
+}
+.banner-center
+{
+    padding-top:30px;
+    line-height:1.3;
+    color:#7a7a7a;
+}
+
+.bannerbtn
+{
+    margin-top: 22px;
+    padding: 11px 40px;
+    border: 2px solid #007cec;
+    background:white;
+    color:#454545;
+}
+.banner-btn
+{
+    margin-left:40px;
+    padding: 11px 40px;
+    background: white;
+    border:2px solid #d5d5d5;
+    color:#bdbdbd;
+}
+/* ..............................activities-section..................... */
+.activities-container h2
+{
+    font-size:27px;
+    color:#333;
+}
+.activities-heading
+{
+    display:flex;
+}
+.activities-clr-1
+{
+    border: 1px solid blue;
+    width: 2%;
+}
+.activities-clr-2
+{
+    border: 1px solid #f5f5f5;
+    width: 7%;
+}
+.activities-content
+{
+    display:flex;
+    flex-wrap:wrap;
+    padding-top:25px;
+}
+.copywrite, .ecommerce, .web-design, .marketing
+{
+    display:flex;
+    width:50%;
+}
+.copywrite-icon, .fa-dumpster , .fa-tv, .fa-bullhorn
+{
+    color:#007cec;
+    font-size:30px;
+}
+.copywrite-content, .ecommerce-content, .web-content, .marketing-content
+{
+    padding-left:18px;
+}
+.copywrite-content h2, .ecommerce-content h2 , .web-content h2, .marketing-content h2
+{
+    font-size: 23px;
+    padding-top: 2px;
+    color:#333;
+}
+.copywrite-content p, .ecommerce-content p, .web-content p, .marketing-content p
+{
+    padding-top:8px;
+    color:#787878;
+    line-height:1.3;
+}
+.web-design, .marketing
+{
+    padding-top:25px;
+}
+/* ..............................testimonial-section.............. */
+.testimonials-item
+{
+    padding-top:36px;
+}
+.heading
+{
+    font-size:27px;
+}
+.testimonials-heading
+{
+    display:flex;
+}
+.testimonials-clr-1
+{
+    border: 1px solid blue;
+    width: 3%;
+}
+.testimonials-clr-2
+{
+    border: 1px solid #f5f5f5;
+    width: 8%;
+}
+.testimonials-section
+{
+    display:flex;
+    margin-top:20px;
+}
+/* .testimonials-container
+{
+    display:flex;
+} */
+.testimonials-container
+{
+    position:relative;
+    width:50%;
+    z-index:2;
+}
+.testimonials-content
+{
+    border: 2px solid #e5e5e5;
+    border-radius:10px;
+    padding: 30px 30px 30px 45px;
+    margin-left: 35px;
+    margin-top: 29px;
+}
+.testimonials-img
+{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+.testimonials-content h2
+{
+    padding-top:15px;
+}
+.testimonials-content p
+{
+    color:#848484;
+}
+.testimonials-author-info
+{
+    padding-top: 34px;
+}
+.testimonials-author-info h2
+{
+    color:#333333;
+}
+.testimonials-author-info p
+{
+    color:#c3c3c3;
+}
+.fa-quote-left
+{
+    position: absolute;
+    bottom: 30%;
+    left: 8%;
+    color:#e5e5e5;
+}
+.fa-quote-right
+{
+    position:absolute;
+    color:#e5e5e5;
+    font-size: 35px;
+    right: -3%;
+    bottom: -15px;
+    z-index:1;
+}
+.testimonials-content-container
+{
+    position:relative;
+    width:50%;
+    margin-left:5%;
+    z-index:2;
+}
+/* ...........................clients................ */
+/* ......................fun facts................... */
+.fun-heading
+{
+    padding-top:36px;
+    font-size:27px;
+}
+.fun-sub-heading
+{
+    display:flex;
+}
+.sub-clr-1
+{
+    border: 1px solid blue;
+    width: 2%;
+}
+.sub-clr-2
+{
+    border: 1px solid #f5f5f5;
+    width: 6%; 
+}
+.fun-block
+{
+    display:flex;
+    justify-content:space-between;
+    padding-top:35px;
+}
+.fun-client
+{
+    text-align:center;
+    width: 20%;
+    border: 2px solid #e5e5e5;
+    border-radius:10px;
+}
+.fun-icon
+{
+    font-size: 36px;
+    margin-top:15px;
+    color:#3b9af1;
+}
+.fun-client h3
+{
+    padding-top:15px;
+    font-weight:bold;
+}
+.fun-client p
+{
+    padding-top:15px;
+    color:#d5d5d5;
+    font-size:47px;
+}
+/* ....................pricing................. */
+.pricing-block
+{
+    padding-top:36px;
+    font-size:27px;
+}
+.pricing-container
+{
+    display:flex;
+    justify-content:space-between;
+}
+.pricing-silver , .pricing-gold, .pricing-platinum
+{
+    border:2px solid #e5e5e5;
+    background-color: #fff;
+    /* padding:30px; */
+    border-radius:15px;
+    text-align:center;
+    width:26%;
+}
+.pricing-silver
+{
+    margin-bottom:10px;
+    padding:30px 0 15px;
+}
+.pricing-gold
+{
+    padding:30px 0 20px;
+    margin-bottom:5px;
+}
+.pricing-platinum
+{
+    padding:30px 0 30px;
+}
+.pricing-month h3
+{
+    font-size:45px;
+    color: #333;
+    margin-top:35px;
+}
+.pricing-month small
+{
+    color: #aaa;
+}
+.pricing-btn
+{
+    margin: 15px 0 20px;
+    padding:15px;
+    color:#222a;
+    border:1px solid #d5d5d5;
+    background: white;
+}
+.pricing-row
+{
+    padding: 5px 0;
+    font-size: 14px;
+    color:#666;
+}
+   
