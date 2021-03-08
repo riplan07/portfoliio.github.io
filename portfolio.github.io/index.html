@@ -13,7 +13,12 @@
                     <div class="container"> 
                         <nav class="header-content">
                             <!-- <h2 class="logo">A</h2> -->
-                            <h2><i class="fab fa-adn logo-adn"></i><span>Alex</span>Smith</h2>      
+                            <div class="header-logo">
+                                <div><i class="fab fa-adn logo-adn"></i> </div>
+                                <h2><span>Alex</span>Smith</h2>
+                                 
+                            </div>
+                            <!-- <h2><i class="fab fa-adn logo-adn"></i><span>Alex</span>Smith</h2>       -->
                             <div class="nav-bar">
                                 <ul>
                                     <li><a class="nav-active-clr" href="#">About Me<i class="fas fa-caret-down"></i></a</li>
@@ -32,7 +37,7 @@
                     <div class="banner">
                         <div class="container">
                             <div class="banner-container">
-                                <div>
+                                <div class="banner-container-image">
                                     <img  class="banner-img" src="./images/author.jpg" alt="issue">
                                 </div>
                                 <div class="banner-content">
@@ -42,7 +47,7 @@
                                     <!-- <button>Download cv</button> -->
                                     <div class="banner-button">
                                         <button class="bannerbtn">Download CV</button>
-                                        <button class="banner-btn">Contact</button>
+                                        <button class="banner-contact-btn">Contact</button>
                                     </div>
                                 </div>
                             </div>
@@ -150,9 +155,35 @@
                                 </div>    
                         </div>
                     </div>
-                    <div class="clients-block">
+                    <div class="clients">
                         <div class="container">
-
+                            <div class="client-container">
+                                <h2 class="client-heading"> Clients</h2>
+                                <div class="client-sub-heading">
+                                    <div class="client-sub-clr-1"></div>
+                                    <div class="client-sub-clr-2"></div>
+                                </div>
+                                <div class="client-content">
+                                    <div>
+                                        <img class="client-logo" src="images/client1.png" alt="issue">
+                                    </div>
+                                    <div>
+                                        <img class="client-logo" src="images/client1.png" alt="issue">
+                                    </div>
+                                    <div>
+                                        <img class="client-logo" src="images/client1.png" alt="issue">
+                                    </div>
+                                    <div>
+                                        <img class="client-logo" src="images/client1.png" alt="issue">
+                                    </div>
+                                    <div>
+                                        <img class="client-logo" src="images/client1.png" alt="issue">
+                                    </div>
+                                    <div>
+                                        <img class="client-logo" src="images/client1.png" alt="issue">
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="fun-facts">
@@ -192,6 +223,10 @@
                         <div class="container">
                             <div class="pricing-block">
                                 <h2>Pricing</h2>
+                                <div class="pricing-subblock">
+                                    <div class="pricing-sub-clr-1"></div>
+                                    <div class="pricing-sub-clr-2"></div>
+                                </div>
                             </div>
                             <div class="pricing-container">
                                 <div class="pricing-silver">
@@ -200,22 +235,23 @@
                                         <h3>$64</h3>
                                         <small>per month</small>
                                     </div>
-                                    <button class="pricing-btn">Free Trial</button>
+                                    <button class="pricing-btn pricing-silver-btn">Free Trial</button>
                                     <p class="pricing-row">Lorem ipsum dolor</p>
                                     <p class="pricing-row">Pellentesque scelerisque</p>
                                     <p class="pricing-row">Morbi eu sagittis</p>
                                 </div>
                                 <div class="pricing-gold">
-                                    <p class="pricing-heading">Gold</p>
+                                    <div class="pricing-heading">Gold
                                     <div class="pricing-gold-block">
                                         <div class="pricing-gold-clr-1"></div>
                                         <div class="pricing-gold-clr-2"></div>
+                                    </div>
                                     </div>
                                     <div class="pricing-month">
                                         <h3>$128</h3>
                                         <small>per month</small>
                                     </div>
-                                    <button class="pricing-btn">Free Trial</button>
+                                    <button class="pricing-btn  pricing-gold-btn">Free Trial</button>
                                     <p class="pricing-row">Lorem ipsum dolor</p>
                                     <p class="pricing-row">Pellentesque scelerisque</p>
                                     <p class="pricing-row">Morbi eu sagittis</p>
@@ -227,18 +263,9 @@
                                         <h3>$256</h3>
                                         <small>per month</small>
                                     </div>
-                                    <button class="pricing-btn">Free Trial</button>
+                                    <button class="pricing-btn  pricing-platinum-btn">Free Trial</button>
                                     <p class="pricing-row">Lorem ipsum dolor</p>
                                     <p class="pricing-row">Pellentesque scelerisque</p>
-                                    <p class="pricing-row">Morbi eu sagittis</p>
-                                    <p class="pricing-row">Donec non diam</p>
-                                    <p class="pricing-row">Aenean nec libero</p>
-                                    <p class="pricing-row">Morbi eu sagittis</p>
-                                    <p class="pricing-row">Donec non diam</p>
-                                    <p class="pricing-row">Aenean nec libero</p>
-                                    <p class="pricing-row">Morbi eu sagittis</p>
-                                    <p class="pricing-row">Donec non diam</p>
-                                    <p class="pricing-row">Aenean nec libero</p>
                                     <p class="pricing-row">Morbi eu sagittis</p>
                                     <p class="pricing-row">Donec non diam</p>
                                     <p class="pricing-row">Aenean nec libero</p>
@@ -248,11 +275,25 @@
 
                         </div>
                     </div>
-                    </div>
 
                 </section>
-            </div>
+                <footer>
+                    <div class="footer-container">
+                    <div class="container">
+                        <div class="footer-content">
+                            <ul>
+                                <li><a href="#">Twitter</a></li>
+                                <li class="footer-fb"><a href="#">Facebook</a></li>
+                                <li class="footer-insta"><a href="#">Instagram</a></li>
+                            </ul>
+                            <div class="footer-copywrite-content">
+                                <p><span>&#169</span>2020 All rights reserved. LMPixels.</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                 </footer>
+            </div>     
         </div>
-
     </body>
 </html>

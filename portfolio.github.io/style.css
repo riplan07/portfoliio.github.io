@@ -72,6 +72,10 @@ table {
     display:flex;
     justify-content:space-between;
 }
+.header-logo
+{
+    display:flex;
+}
 .header-content span
 {
     padding:0 5px;
@@ -79,6 +83,7 @@ table {
 .header-content h2
 {
     font-size:25px;
+    padding-top:8px;
 }
 .logo-adn
 {
@@ -104,6 +109,13 @@ table {
     display:flex;
     justify-content:center;
     padding: 5% 14%;
+}
+.banner-container-image
+{
+    padding: 20px;
+    border-radius: 50%;
+    background: white;
+    border: 1px solid #f7f7f7;
 }
 .banner-img
 {
@@ -138,14 +150,16 @@ table {
     border: 2px solid #007cec;
     background:white;
     color:#454545;
+    border-radius:20px;
 }
-.banner-btn
+.banner-contact-btn
 {
-    margin-left:40px;
+    margin-left:10px;
     padding: 11px 40px;
     background: white;
     border:2px solid #d5d5d5;
     color:#bdbdbd;
+    border-radius:20px;
 }
 /* ..............................activities-section..................... */
 .activities-container h2
@@ -302,6 +316,35 @@ table {
     z-index:2;
 }
 /* ...........................clients................ */
+.client-heading
+{
+    padding-top:36px;
+    font-size:27px;
+}
+.client-sub-heading
+{
+    display:flex;
+}
+.client-sub-clr-1
+{
+    border: 1px solid blue;
+    width: 2%;
+}
+.client-sub-clr-2
+{
+    border: 1px solid #f5f5f5;
+    width: 5%; 
+}
+.client-content
+{
+    display:flex;
+    justify-content:space-between;
+    padding-top:30px;
+}
+.client-logo
+{
+    max-width:120px;
+}
 /* ......................fun facts................... */
 .fun-heading
 {
@@ -334,11 +377,12 @@ table {
     width: 20%;
     border: 2px solid #e5e5e5;
     border-radius:10px;
+    padding:22px 0;
 }
 .fun-icon
 {
     font-size: 36px;
-    margin-top:15px;
+    /* margin-top:15px; */
     color:#3b9af1;
 }
 .fun-client h3
@@ -353,15 +397,31 @@ table {
     font-size:47px;
 }
 /* ....................pricing................. */
-.pricing-block
+.pricing-block h2
 {
     padding-top:36px;
     font-size:27px;
 }
+
 .pricing-container
 {
     display:flex;
     justify-content:space-between;
+    padding-top:36px;
+}
+.pricing-subblock
+{
+    display:flex;
+}
+.pricing-sub-clr-1
+{
+    border: 1px solid blue;
+    width: 2%;
+}
+.pricing-sub-clr-2
+{
+    border: 1px solid #f5f5f5;
+    width: 5%;
 }
 .pricing-silver , .pricing-gold, .pricing-platinum
 {
@@ -382,6 +442,21 @@ table {
     padding:30px 0 20px;
     margin-bottom:5px;
 }
+.pricing-gold-block
+{
+    display:flex;
+    justify-content: center;
+}
+.pricing-gold-clr-1
+{
+    border: 1px solid blue;
+    width: 9%;
+}
+/* .pricing-gold-clr-2
+{
+    border: 1px solid #f5f5f5;
+    width: 2%;   
+} */
 .pricing-platinum
 {
     padding:30px 0 30px;
@@ -399,10 +474,22 @@ table {
 .pricing-btn
 {
     margin: 15px 0 20px;
-    padding:15px;
+    padding:12px 28px;
     color:#222a;
-    border:1px solid #d5d5d5;
     background: white;
+    border-radius:28px;
+}
+.pricing-silver-btn
+{
+    border:2px solid #d5d5d5;
+}
+.pricing-gold-btn
+{
+    border:2px solid blue;
+}
+.pricing-platinum-btn
+{
+    border:2px solid blue;
 }
 .pricing-row
 {
@@ -410,4 +497,38 @@ table {
     font-size: 14px;
     color:#666;
 }
+/* ....................footer.............. */
+.footer-container
+{
+    margin-top: 60px;
+    border-top: 2px solid #f2f2f2;
+}
+.footer-content
+{
+    display:flex;
+    justify-content: space-between;
+}   
+.footer-content ul
+{
+    padding:20px 0;
+}
+.footer-content ul li
+{
+    font-size:13px;
+    color:#333;
+    display:inline-block;
    
+}
+.footer-content ul li a
+{
+    color:#333;
+}
+.footer-fb, .footer-insta
+{
+    margin-left:30px;
+}
+.footer-copywrite-content
+{
+    padding:20px 0;
+    font-size:13px;
+}
