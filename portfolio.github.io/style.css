@@ -146,8 +146,9 @@ header
 {
     font-size:11px;
     padding-left:3px;
-    color:##dadada;
+    color:#dadada;
 }
+
 .dropdown
   {
       float:none;
@@ -255,8 +256,8 @@ header
     border-radius:30px;
     cursor:pointer
     outline:none;
-    font-family: poppins,Helvetica,sans-serif;
-    box-shadow: 0 10px 10px -8px rgb(0 0 0 / 22%);
+    font-family : poppins,Helvetica,sans-serif;
+    box-shadow : 0 10px 10px -8px rgb(0 0 0 / 22%);
 }
 .bannerbtn a
 {
@@ -406,6 +407,7 @@ header
     padding: 34px 30px 30px 49px;
     margin-left: 35px;
     margin-top: 29px;
+    background:white;
 }
 .testimonials-img
 {
@@ -456,7 +458,7 @@ header
     font-size: 44px;
     right: -4%;
     bottom: -15px;
-    z-index:1;
+    z-index:-1;
 }
 .testimonials-container-2
 {
@@ -518,6 +520,24 @@ header
     justify-content:space-between;
     padding: 10px 15px 15px; 
 } */
+.carousel-indicators
+{
+    bottom:-60%;
+}
+.carousel-indicators li:first-child
+{
+    border:2px solid #007ced;
+    border-radius:0px;
+    height:auto;
+    width:5%;
+}
+.carousel-indicators li:last-child
+{
+    border:2px solid #bda2a2;
+    border-radius:0px;
+    height:auto;
+    width:4%;
+}
 .carousel-inner img
 {
     width: 175px;
@@ -794,7 +814,7 @@ header
         margin:0;
         width:100%;
         border-radius:0px;
-        padding: 40px 0 0;
+        padding: 28px 0 0;
     }
     
 }
@@ -978,45 +998,45 @@ header
 @media (min-width: 992px)
 {
     .header-menu-icon
-{
-    display:none;
-}
-.top-bar
-{
-    align-self:center;
-}
-.nav-bar ul
-{
-    position:static;
-}
-.nav-bar ul li
-{
-    display:inline-block;
-    margin-right:28px;
-    font-family: poppins,Helvetica,sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    padding:0;
-        
-}
-.nav-bar-ul-li a
-{
-    font-size:14px;
-}
-.nav-clr
-{
-    color:#dadada;
-}
-.nav-active-clr
-{
-    color:#6a6a6a;
-}
-.fa-chevron-down
-{
-    font-size:11px;
-    padding-left:3px;
-    color:##dadada;
-} 
+    {
+        display:none;
+    }
+    .top-bar
+    {
+        align-self:center;
+    }
+    .nav-bar ul
+    {
+        position:static;
+    }
+    .nav-bar ul li
+    {
+        display:inline-block;
+        margin-right:28px;
+        font-family: poppins,Helvetica,sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        padding:0;
+            
+    }
+    .nav-bar-ul-li a
+    {
+        font-size:14px;
+    }
+    .nav-clr
+    {
+        color:#dadada;
+    }
+    .nav-active-clr
+    {
+        color:#6a6a6a;
+    }
+    .fa-chevron-down
+    {
+        font-size:11px;
+        padding-left:3px;
+        color:#dadada;
+    } 
 }
 @media (min-width: 992px)
 {
@@ -1405,8 +1425,8 @@ header
     }
     .fun-client
     {
-        width:100%;
-        margin-top:10px;
+        width:90%;
+        margin: 7% 5% 0
     }
 }
 @media screen and (min-width: 576px)
@@ -1427,6 +1447,7 @@ header
     .fun-client
     {
         width:23%;
+        margin:12px 0 0 0;
     }
     .fun-client:hover
     {
@@ -1462,11 +1483,11 @@ header
 {
     .pricing-sub-clr-1
     {
-        width:7%;
+        width:5%;
     }
     .pricing-sub-clr-2
     {
-        width:15%;
+        width:13%;
     }
     .pricing-container
     {
@@ -1474,7 +1495,8 @@ header
     }
     .pricing-silver , .pricing-gold, .pricing-platinum
     {
-        width:100%;
+        width:90%;
+        margin: 0 5% 7%
     }
     .pricing-gold-clr-1
     {
@@ -1497,7 +1519,8 @@ header
     }
     .pricing-silver , .pricing-gold, .pricing-platinum
     {
-        width:100%;
+        width:90%;
+        margin: 0 5% 7%
     }
     .pricing-gold-clr-1
     {
@@ -1521,6 +1544,14 @@ header
     .pricing-silver , .pricing-gold, .pricing-platinum
     {
         width:31%;
+    }
+    .pricing-silver
+    {
+        margin:0 0 10px;
+    }
+    .pricing-gold, .pricing-platinum
+    {
+        margin:0 0 5px;
     }
     .pricing-gold-clr-1
     {
